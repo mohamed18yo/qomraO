@@ -188,10 +188,7 @@ router.post('/sendOrder', function(req, res, next) {
         <td>${" without"}</td>
         <td>${req.body.qty}</td>
         <td>ريال:${req.body.total}</td>
-      </tr>
-
-    
-      
+      </tr>    
       <tr>
         <td colspan="5" style="text-align:right; padding:10px;">
         <strong>الاجمالي : </strong> ريال: ${req.body.total * req.body.qty} /-
