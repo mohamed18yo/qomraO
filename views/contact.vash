@@ -1,0 +1,49 @@
+
+
+@html.extend('layout', function(model) {
+    @html.block('content', function(model) {
+      
+<div class="header-page">
+    <div class="container">
+      <div class="header-padding position-relative">
+        <div class="header-page-shape">
+          <div class="header-page-shape-item">
+            <img src="images/header-page-shape-1.png" alt="shape" />
+          </div>
+          <div class="header-page-shape-item">
+            <img src="images/header-page-shape-2.png" alt="shape" />
+          </div>
+        </div>
+        <div class="header-page-title">
+          <h1>اتصل بنا</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                اتصل بنا
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-details-section pt-100 pb-70">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 pb-30">
+          <div class="product-details-item">
+            <div class="product-details-caption">
+              <div class="product-details-para mb-20">
+                <p>اتصل بنا ....</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+})
+})

@@ -1,0 +1,811 @@
+
+
+
+
+
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    <style>
+      h1 {
+        background: none !important;
+      }
+    </style>
+
+    <div class="header-page">
+      <div class="container">
+        <div class="header-padding position-relative">
+          <div class="header-page-shape">
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-1.png" alt="shape" />
+            </div>
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-2.png" alt="shape" />
+            </div>
+          </div>
+          <div class="header-page-title">
+            <h1>أجهزة أيفون</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  أجهزة أيفون
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .btnjehad {
+        background: #0066a5;
+        text-align: center;
+        width: 241px !important;
+        color: #fff !important;
+        border-radius: 8px;
+        font-weight: bold !important;
+        padding: 2px 24px 2px 24px;
+      }
+    </style>
+
+    <div class="product-section pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 pb-30">
+            <div class="product-list-header">
+              <div class="product-list-header-item">
+                <div class="product-list-result">
+                  <p>عرض 1-9 من 20 نتيجة</p>
+                </div>
+              </div>
+              <div class="product-list-header-item">
+                <div class="product-list-action">
+                  <div class="product-list-form">
+                    <form>
+                      <select>
+                        <option value="default-sorting">الافتراضي</option>
+                        <option value="popularity">عرض حسب الاشهر</option>
+                        <option value="lowtohigh">
+                          حسب السعر من الاقل للاعلي
+                        </option>
+                        <option value="hightolow">
+                          حسب السعر من الاعلي للاقل
+                        </option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-content">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=3">
+                        <img
+                          src="images/1625499702_8715.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625499702_8715.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>ايفون 12 برو ماكس 512</h3>
+                      <div class="product-price">
+                        <del>5900 ريال</del>5700 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=3&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 196 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=3&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=4">
+                        <img
+                          src="images/1625523455_9267.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625523455_9267.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال
+                      </h3>
+                      <div class="product-price">
+                        <del>5300 ريال</del>5000 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=4&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 167 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">6%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=4&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=5">
+                        <img
+                          src="images/1625535192_4392.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625535192_4392.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        آبل أيفون 12 برو ماكس ، 128 جيجا ، الدفعه الاولى 1000
+                        ريال
+                      </h3>
+                      <div class="product-price">
+                        <del>5100 ريال</del>4900 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=5&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 163 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=5&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=6">
+                        <img
+                          src="images/1625525803_616.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625525803_616.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        آبل أيفون 12 برو ، 256 جيجا ، الدفعه الاولى 1000 ريال
+                      </h3>
+                      <div class="product-price">
+                        <del>5000 ريال</del>4700 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=6&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 154 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">6%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=6&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=7">
+                        <img
+                          src="images/1625526136_5613.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625526136_5613.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        آبل أيفون 12 برو ، 128 جيجا الدفعه الاولى 1000 ريال
+                      </h3>
+                      <div class="product-price">
+                        <del>4600 ريال</del>4400 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=7&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 142 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=7&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=8">
+                        <img
+                          src="images/1625526457_2075.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625526457_2075.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>آبل أيفون 12 ، 128 جيجا الدفعه الاولى 1000 ريال</h3>
+                      <div class="product-price">
+                        <del>4500 ريال</del>4200 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=8&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 133 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">7%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=8&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=9">
+                        <img
+                          src="images/1625527078_491.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625527078_491.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        آبل أيفون 11 ، 64 جيجا ، أخضر ، الإصدار الجديد الدفعه
+                        الاولى 1000 ريال
+                      </h3>
+                      <div class="product-price">
+                        <del>3300 ريال</del>3100 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=9&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 88 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">6%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=9&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=10">
+                        <img
+                          src="images/1625527781_7524.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625527781_7524.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>ايفون 11 128 جيجابايت الدفعه الاولى 1000 ريال</h3>
+                      <div class="product-price">
+                        <del>3500 ريال</del>3200 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=10&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 92 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">9%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=10&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=11">
+                        <img
+                          src="images/1625528246_9590.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625528246_9590.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>ايفون 11 256 جيجابايت الدفعه الاولى 1000 ريال</h3>
+                      <div class="product-price">
+                        <del>3737 ريال</del>3437 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=11&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 102 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">8%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=11&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=12">
+                        <img
+                          src="images/1625528949_8838.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625528949_8838.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        أيفون 11 برو 64 جيجابايت - رمادي الدفعه الاولى 1000 ريال
+                      </h3>
+                      <div class="product-price">
+                        <del>4449 ريال</del>4249 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=12&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 135 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=12&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=13">
+                        <img
+                          src="images/1625529629_4296.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625529629_4296.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 11 برو 128 جيجابايت الدفعه الاولى 1000 ريال</h3>
+                      <div class="product-price">
+                        <del>4800 ريال</del>4581 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=13&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 149 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">5%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=13&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=14">
+                        <img
+                          src="images/1625529888_6819.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625529888_6819.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 11 برو 256 جيجابايت الدفعه الاولى 1000 ريال</h3>
+                      <div class="product-price">
+                        <del>3900 ريال</del>3600 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=14&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 108 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">8%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=14&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=224">
+                        <img
+                          src="images/1631560922_6864.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631560922_6864.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أبل هاتف آيفون XR بذاكرة داخلية</h3>
+                      <div class="product-price">
+                        <del>2648 ريال</del>2548 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=224&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 800 ريال والقسط الشهري 73 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=224&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=225">
+                        <img
+                          src="images/1631561137_3804.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631561137_3804.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أبل آيفون XR مع فيس تايم</h3>
+                      <div class="product-price">
+                        <del>2499 ريال</del>2349 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=225&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 800 ريال والقسط الشهري 65 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">6%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=225&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-pagination">
+              <nav aria-label="pagination">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <span class="page-link"
+                      ><i class="flaticon-left-arrow-1"></i
+                    ></span>
+                  </li>
+                  <li class="page-item active">
+                    <span class="page-link">
+                      1
+                      <span class="sr-only">(الحالي)</span>
+                    </span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="flaticon-next"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+})
+})

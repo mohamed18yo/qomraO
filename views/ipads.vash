@@ -1,0 +1,598 @@
+ 
+
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    
+    <div class="header-page">
+      <div class="container">
+        <div class="header-padding position-relative">
+          <div class="header-page-shape">
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-1.png" alt="shape" />
+            </div>
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-2.png" alt="shape" />
+            </div>
+          </div>
+          <div class="header-page-title">
+            <h1>الأجهزة اللوحية</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  الأجهزة اللوحية
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .btnjehad {
+        background: #0066a5;
+        text-align: center;
+        width: 241px !important;
+        color: #fff !important;
+        border-radius: 8px;
+        font-weight: bold !important;
+        padding: 2px 24px 2px 24px;
+      }
+    </style>
+
+    <div class="product-section pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 pb-30">
+            <div class="product-list-header">
+              <div class="product-list-header-item">
+                <div class="product-list-result">
+                  <p>عرض 1-9 من 20 نتيجة</p>
+                </div>
+              </div>
+              <div class="product-list-header-item">
+                <div class="product-list-action">
+                  <div class="product-list-form">
+                    <form>
+                      <select>
+                        <option value="default-sorting">الافتراضي</option>
+                        <option value="popularity">عرض حسب الاشهر</option>
+                        <option value="lowtohigh">
+                          حسب السعر من الاقل للاعلي
+                        </option>
+                        <option value="hightolow">
+                          حسب السعر من الاعلي للاقل
+                        </option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-content">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=200">
+                        <img
+                          src="images/1625601157_7353.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625601157_7353.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>ابل 2020 - آيباد برو 12,9</h3>
+                      <div class="product-price">
+                        <del>5700 ريال</del>5500 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=200&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1500 ريال والقسط الشهري 167 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=200&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=202">
+                        <img
+                          src="images/1631296408_6173.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631296408_6173.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أسوس فيفو بوك 14</h3>
+                      <div class="product-price">
+                        <del>1499 ريال</del>1399 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=202&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 37 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">7%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=202&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=203">
+                        <img
+                          src="images/1631298136_624.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631298136_624.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أبل 2020-ايباد برو 11</h3>
+                      <div class="product-price">
+                        <del>3699 ريال</del>3499 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=203&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 104 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">5%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=203&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=205">
+                        <img
+                          src="images/1631389142_9764.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631389142_9764.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        أبل أيباد أير الجيل الرابع 10.9بوصة وأي فاي 128 جيجا
+                      </h3>
+                      <div class="product-price">
+                        <del>3700 ريال</del>3500 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=205&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 104 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">5%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=205&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=208">
+                        <img
+                          src="images/1631457912_9217.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631457912_9217.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>ايباد</h3>
+                      <div class="product-price">
+                        <del>1800 ريال</del>1600 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=208&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 46 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">11%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=208&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=211">
+                        <img
+                          src="images/1631478493_8097.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631478493_8097.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        أبل أيباد برو 2021، واي فاي، 11 بوصة، 1 تيرا، رمادي
+                      </h3>
+                      <div class="product-price">
+                        <del>6800 ريال</del>6600 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=211&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1500 ريال والقسط الشهري 213 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=211&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=217">
+                        <img
+                          src="images/1631558625_3479.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558625_3479.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج جالاكسي تاب S2 إصدار</h3>
+                      <div class="product-price">
+                        <del>1399 ريال</del>1299 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=217&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 33 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">7%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=217&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=218">
+                        <img
+                          src="images/1631558696_1477.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558696_1477.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج جالكسي تاب A7</h3>
+                      <div class="product-price">
+                        <del>1199 ريال</del>1000 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=218&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 21 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">17%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=218&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=219">
+                        <img
+                          src="images/1631559062_8588.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631559062_8588.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>آيباد آير ( الجيل الرابع) بشاشة 10.9 بوصة 265GB</h3>
+                      <div class="product-price">
+                        <del>3399 ريال</del>3299 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=219&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 96 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=219&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=223">
+                        <img
+                          src="images/1631560568_1202.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631560568_1202.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أبل جهاز آي باد- 2019 من الجيل السابع</h3>
+                      <div class="product-price">
+                        <del>1666 ريال</del>1616 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=223&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 47 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=223&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-pagination">
+              <nav aria-label="pagination">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <span class="page-link"
+                      ><i class="flaticon-left-arrow-1"></i
+                    ></span>
+                  </li>
+                  <li class="page-item active">
+                    <span class="page-link">
+                      1
+                      <span class="sr-only">(الحالي)</span>
+                    </span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="flaticon-next"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+})
+})

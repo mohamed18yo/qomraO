@@ -1,0 +1,845 @@
+
+
+
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    <div class="header-page">
+      <div class="container">
+        <div class="header-padding position-relative">
+          <div class="header-page-title">
+             <h1>@model.pro.name</h1>
+           <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-itemx"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-itemx active" aria-current="page">
+                   @model.pro.name
+                 </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-details-section pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 pb-30">
+            <div class="product-details-itemx">
+              <div class="product-details-slider">
+                <div class="product-details-for popup-gallery">
+                  <div class="product-for-itemx">
+                    <div class="product-gallery-trigger">
+                      <a
+                        href="/panel/uploads/mobile/@model.pro.image"
+                        title="@model.pro.name"
+                        ><i class="bx bx-expand"></i
+                      ></a>
+                    </div>
+                    <img src="/@model.pro.image" alt="product" />
+                  </div>
+                  <div class="product-for-itemx">
+                    <div class="product-gallery-trigger">
+                      <a
+                        href="/panel/uploads/mobile/@model.pro.image"
+                        title="@model.pro.name"
+                        ><i class="bx bx-expand"></i
+                      ></a>
+                    </div>
+                    <img src="/@model.pro.image" alt="product" />
+                  </div>
+                  <div class="product-for-itemx">
+                    <div class="product-gallery-trigger">
+                      <a
+                        href="/panel/uploads/mobile/@model.pro.image"
+                        title="@model.pro.name"
+                        ><i class="bx bx-expand"></i
+                      ></a>
+                    </div>
+                    <img src="/@model.pro.image" alt="product" />
+                  </div>
+                  <div class="product-for-itemx">
+                    <div class="product-gallery-trigger">
+                      <a
+                        href="/panel/uploads/mobile/@model.pro.image"
+                        title="@model.pro.name"
+                        ><i class="bx bx-expand"></i
+                      ></a>
+                    </div>
+                    <img src="/@model.pro.image" alt="product" />
+                  </div>
+                </div>
+                <div class="product-details-nav">
+                  <div class="product-nav-itemx">
+                    <div class="product-nav-itemx-inner">
+                      <img src="/@model.pro.image" alt="product" />
+                    </div>
+                  </div>
+                  <div class="product-nav-itemx">
+                    <div class="product-nav-itemx-inner">
+                      <img src="/@model.pro.image" alt="product" />
+                    </div>
+                  </div>
+                  <div class="product-nav-itemx">
+                    <div class="product-nav-itemx-inner">
+                      <img src="/@model.pro.image" alt="product" />
+                    </div>
+                  </div>
+                  <div class="product-nav-itemx">
+                    <div class="product-nav-itemx-inner">
+                      <img src=" /@model.pro.image" alt="product" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 pb-30">
+            <div class="product-details-itemx">
+              <div class="product-details-caption">
+                <div
+                  class="availability-badge availability-badge-success mb-20"
+                >
+                  في المستودع
+                </div>
+                <h3 class="mb-20">
+                   @model.pro.name
+               </h3>
+                <h4 class="mb-20">
+                  5.4 بوصه بطارية ليثيوم أيون مدمجة قابلة لإعادة الشحن‏ Super
+                  Retina XDR OLED
+                </h4>
+                <div class="review-star mb-20">
+                  <ul>
+                    <li class="full-star"><i class="bx bxs-star"></i></li>
+                    <li class="full-star"><i class="bx bxs-star"></i></li>
+                    <li class="full-star"><i class="bx bxs-star"></i></li>
+                    <li class="full-star"><i class="bx bxs-star"></i></li>
+                    <li class="full-star"><i class="bx bxs-star"></i></li>
+                  </ul>
+                  <p>(2 تعليقات)</p>
+                </div>
+                <div class="product-details-price mb-20">
+                   <h4><del>@model.pro.price ريال</del>@model.pro.subprice ريال</h4>
+               </div>
+                <h5></h5>
+                <div class="product-details-para mb-20">
+                  <p>.</p>
+                </div>
+                <div class="product-action-info mb-20">
+                  <h4>اللون:</h4>
+                  <ul class="product-color-list">
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="black1" name="productColor" />
+                        <label
+                          for="black1"
+                          class="custom-color-label custom-color-black"
+                        ></label>
+                        <p class="custom-radio-tooltip">الاسود</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="green1" name="productColor" />
+                        <label
+                          for="green1"
+                          class="custom-color-label custom-color-green"
+                        ></label>
+                        <p class="custom-radio-tooltip">الاخضر</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="blue1" name="productColor" />
+                        <label
+                          for="blue1"
+                          class="custom-color-label custom-color-blue"
+                        ></label>
+                        <p class="custom-radio-tooltip">الازرق</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="blue-light1"
+                          name="productColor"
+                        />
+                        <label
+                          for="blue-light1"
+                          class="custom-color-label custom-color-blue-light"
+                        ></label>
+                        <p class="custom-radio-tooltip">Light Blue</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="violet1" name="productColor" />
+                        <label
+                          for="violet1"
+                          class="custom-color-label custom-color-violet"
+                        ></label>
+                        <p class="custom-radio-tooltip">Violet</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="orange1" name="productColor" />
+                        <label
+                          for="orange1"
+                          class="custom-color-label custom-color-orange"
+                        ></label>
+                        <p class="custom-radio-tooltip">البرتقالي</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="purple1" name="productColor" />
+                        <label
+                          for="purple1"
+                          class="custom-color-label custom-color-purple"
+                        ></label>
+                        <p class="custom-radio-tooltip">Purple</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input type="radio" id="brown1" name="productColor" />
+                        <label
+                          for="brown1"
+                          class="custom-color-label custom-color-brown"
+                        ></label>
+                        <p class="custom-radio-tooltip">بني</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-action-info mb-20">
+                  <h4>الكمية:</h4>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap
+                      align-itemxs-center
+                      product-quantity
+                      inline-popup-1
+                    "
+                  >
+                    <div class="cart-quantity product-quantity-itemx">
+                      <button class="qu-btn dec">-</button>
+                      <input type="text" class="qu-input" value="1" />
+                      <button class="qu-btn inc">+</button>
+                    </div>
+                    <a
+                      class="btn btn-icon product-quantity-itemx"
+                      href="#product-popup-1"
+                      data-effect="mfp-zoom-in"
+                    >
+                      <i class="flaticon-shopping-cart"></i>
+                      <i class="flaticon-shopping-cart"></i>
+                      اطلب الان
+                    </a>
+                  </div>
+                </div>
+                <div class="product-author">
+                  <div class="product-author-info">
+                    <p>مشاركة الان</p>
+                  </div>
+                  <ul class="share-social-link">
+                    <li>
+                      <a href="#"><i class="bx bxl-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bx bxl-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-details-tab">
+          <ul class="product-details-tab-list">
+            <li class="active" data-product-tab-list="1">التفاصيل</li>
+            <li data-product-tab-list="2">مزيد من التفاصيل</li>
+            <li data-product-tab-list="3">المراجعات <span>(2)</span></li>
+          </ul>
+          <div class="product-tab-information">
+            <div
+              class="product-tab-information-itemx active"
+              data-product-details-tab="1"
+            >
+              <div class="product-description">
+                <p>
+                  5.4 بوصه بطارية ليثيوم أيون مدمجة قابلة لإعادة الشحن‏ Super
+                  Retina XDR OLED
+                </p>
+              </div>
+            </div>
+            <div
+              class="product-tab-information-itemx"
+              data-product-details-tab="2"
+            >
+              <div class="product-description product-description-table mb-30">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td class="weight-bold">اللون</td>
+                      <td>ازرق , اخضر , احمر , اسود</td>
+                    </tr>
+                    <tr>
+                      <td class="weight-bold">مساحة التخزين</td>
+                      <td>128GB, 512GB, 64GB</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div
+              class="product-tab-information-itemx"
+              data-product-details-tab="3"
+            >
+              <div class="row">
+                <div class="col-sm-12 col-md-12 offset-lg-3 col-lg-6 pb-30">
+                  <div class="product-review-box">
+                    <div class="product-review-itemx">
+                      <p>
+                        بارك الله فيكم تم استلام الجهاز وبالمواصفات المطلوبة
+                      </p>
+                      <div class="product-review-author">
+                        <div class="product-review-author-info">
+                          <h3>ناصر قحطان</h3>
+                          <h4>صبيا</h4>
+                        </div>
+                        <div class="review-star">
+                          <ul>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-review-itemx">
+                      <p>انا طلبت جهاز وابي اطلب جهاز اخر.</p>
+                      <div class="product-review-author">
+                        <div class="product-review-author-info">
+                          <h3>رامي العمري</h3>
+                          <h4>السعودية - جازان</h4>
+                        </div>
+                        <div class="review-star">
+                          <ul>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                            <li class="full-star">
+                              <i class="bx bxs-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 offset-lg-3 col-lg-6 pb-30">
+                  <div class="sub-section-title">
+                    <h3>تقيمك</h3>
+                  </div>
+                  <form>
+                    <div class="form-review mb-20">
+                      <fieldset class="rating">
+                        <ul>
+                          <li>
+                            <input
+                              type="radio"
+                              id="star5"
+                              name="rating"
+                              value="5"
+                            />
+                            <label class="full" for="star5"></label>
+                            <input
+                              type="radio"
+                              id="star4half"
+                              name="rating"
+                              value="4 and a half"
+                            />
+                            <label
+                              class="half"
+                              for="star4half"
+                              title="Pretty good - 4.5 stars"
+                            ></label>
+                          </li>
+                          <li>
+                            <input
+                              type="radio"
+                              id="star4"
+                              name="rating"
+                              value="4"
+                            />
+                            <label class="full" for="star4"></label>
+                            <input
+                              type="radio"
+                              id="star3half"
+                              name="rating"
+                              value="3 and a half"
+                            />
+                            <label class="half" for="star3half"></label>
+                          </li>
+                          <li>
+                            <input
+                              type="radio"
+                              id="star3"
+                              name="rating"
+                              value="3"
+                            />
+                            <label class="full" for="star3"></label>
+                            <input
+                              type="radio"
+                              id="star2half"
+                              name="rating"
+                              value="2 and a half"
+                            />
+                            <label class="half" for="star2half"></label>
+                          </li>
+                          <li>
+                            <input
+                              type="radio"
+                              id="star2"
+                              name="rating"
+                              value="2"
+                            />
+                            <label class="full" for="star2"></label>
+                            <input
+                              type="radio"
+                              id="star1half"
+                              name="rating"
+                              value="1 and a half"
+                            />
+                            <label class="half" for="star1half"></label>
+                          </li>
+                          <li>
+                            <input
+                              type="radio"
+                              id="star1"
+                              name="rating"
+                              value="1"
+                            />
+                            <label class="full" for="star1"></label>
+                            <input
+                              type="radio"
+                              id="starhalf"
+                              name="rating"
+                              value="half"
+                            />
+                            <label class="half" for="starhalf"></label>
+                          </li>
+                        </ul>
+                      </fieldset>
+                      <h4>اضافة تعليق</h4>
+                    </div>
+                    <div class="form-group mb-20">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          class="form-control"
+                          required
+                          placeholder="اسمك الكريم*"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group mb-20">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-envelope"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          name="email"
+                          id="email"
+                          class="form-control"
+                          required
+                          placeholder="بريدك الالكتروني*"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group mb-20">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-envelope"></i
+                          ></span>
+                        </div>
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          id="message"
+                          rows="5"
+                          required
+                          placeholder="رسالتك*"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <button
+                      class="btn btn-icon btn-red btn-shadow btn-shadow-red"
+                    >
+                      <i class="flaticon-paper-plane"></i>
+                      <i class="flaticon-paper-plane"></i>
+                      اترك تعليق
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div id="product-popup-1" class="white-popup mfp-with-anim mfp-hide">
+      <div class="product-popup-inner">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <div class="product-popup-content product-details-content">
+              <form class="form-signin"  method="post" id="register-form">
+                <h6>قم بتعبئة البيانات (الرد خلال ساعات)</h6>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group mb-20 has-error">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-user"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          title="الاسم كامل"
+                          placeholder="الاسم كاملا"
+                          name="name"
+                          required
+                          data-error="أدخل الاسم كاملاً"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group mb-20 has-error">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-telephone"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          title="رقم الجوال"
+                          placeholder="أدخل رقم الموبايل"
+                          name="phone"
+                          required
+                          data-error="قم بوضع رقم جوالك"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group mb-20 has-error">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-book"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          title="أدخل العنوان كاملاً"
+                          placeholder="أدخل العنوان كاملاً"
+                          name="address"
+                          required
+                          data-error="أدخل العنوان كاملاً"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group mb-20 has-error">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-listen"></i
+                          ></span>
+                        </div>
+                        <input
+                          type="text"
+                          title="نوع الجهاز المطلوب"
+                          placeholder="ادخل اسم الجهاز المطلوب"
+                          value="@model.pro.name"
+                          name="note"
+                          required
+                          data-error="نوع الجهاز المطلوب"
+                          class="form-control"
+                        />
+                        <input type="hidden" value="@model.pro.price" name="price" />
+                        <input type="hidden" value="@model.pro.discount" name="discount" />
+
+                        <input type="hidden" value="@model.pro.subprice" name="total" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group mb-20 has-error">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-phone-call"></i
+                          ></span>
+                        </div>
+                        <input
+                          id="newsletter"
+                          class="input-text form-control"
+                          title="رقم الواتس اب"
+                          type="text"
+                          placeholder="ادخل رقم الواتس اب"
+                          name="phone2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group mb-20 has-error">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"
+                            ><i class="flaticon-payment-method"></i
+                          ></span>
+                        </div>
+                        <input
+                          id="newsletter"
+                          class="input-text form-control"
+                          title="كود الخصم"
+                          type="text"
+                          placeholder="كود الخصم"
+                          name="code"
+                          value="extra20"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-color product-details-item">
+                  <div class="sidebar-title">
+                    <h3>الالوان</h3>
+                  </div>
+                  <ul class="product-color-list">
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="black"
+                          value="اسود"
+                          name="productColor"
+                        />
+                        <label
+                          for="black"
+                          class="custom-color-label custom-color-black"
+                        ></label>
+                        <p class="custom-radio-tooltip">اسود</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="green"
+                          value="اخضر"
+                          name="productColor"
+                        />
+                        <label
+                          for="green"
+                          class="custom-color-label custom-color-green"
+                        ></label>
+                        <p class="custom-radio-tooltip">اخضر</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="blue"
+                          value="ازرق"
+                          name="productColor"
+                        />
+                        <label
+                          for="blue"
+                          class="custom-color-label custom-color-blue"
+                        ></label>
+                        <p class="custom-radio-tooltip">ازرق</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="blue-light"
+                          value="ازرق فاتح"
+                          name="productColor"
+                        />
+                        <label
+                          for="blue-light"
+                          class="custom-color-label custom-color-blue-light"
+                        ></label>
+                        <p class="custom-radio-tooltip">ازرق فاتح</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="violet"
+                          value="البنفسجي"
+                          name="productColor"
+                        />
+                        <label
+                          for="violet"
+                          class="custom-color-label custom-color-violet"
+                        ></label>
+                        <p class="custom-radio-tooltip">البنفسجي</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="orange"
+                          value="برتقالي"
+                          name="productColor"
+                        />
+                        <label
+                          for="orange"
+                          class="custom-color-label custom-color-orange"
+                        ></label>
+                        <p class="custom-radio-tooltip">برتقالي</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="purple"
+                          value="بنفسجي"
+                          name="productColor"
+                        />
+                        <label
+                          for="purple"
+                          class="custom-color-label custom-color-purple"
+                        ></label>
+                        <p class="custom-radio-tooltip">بنفسجي</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-color-radio">
+                        <input
+                          type="radio"
+                          id="brown"
+                          value="بني"
+                          name="productColor"
+                        />
+                        <label
+                          for="brown"
+                          class="custom-color-label custom-color-brown"
+                        ></label>
+                        <p class="custom-radio-tooltip">بني</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="product-quantity product-details-item">
+                  <div class="sidebar-title">
+                    <h3>الكمية</h3>
+                  </div>
+                  <div class="product-quantity-action">
+                    <div class="cart-quantity product-quantity-action-item">
+                      <button class="qu-btn dec" type="button">-</button>
+                      <input
+                        type="text"
+                        class="qu-input"
+                        name="qty"
+                        value="1"
+                      />
+                      <button class="qu-btn inc" type="button">+</button>
+                    </div>
+                    <ul
+                      class="product-action-button product-quantity-action-item"
+                    >
+                      <li>
+                        <button
+                          class="btn btn-black btn-icon"
+                          type="submit"
+                          name="subm"
+                        >
+                          <i class="flaticon-shopping-cart"></i>
+                          <i class="flaticon-shopping-cart"></i>
+                          اطلب الان
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </form>
+              <div id="sms-alert-section"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  })
+  })

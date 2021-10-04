@@ -1,0 +1,586 @@
+
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    
+    <div class="header-page">
+      <div class="container">
+        <div class="header-padding position-relative">
+          <div class="header-page-shape">
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-1.png" alt="shape" />
+            </div>
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-2.png" alt="shape" />
+            </div>
+          </div>
+          <div class="header-page-title">
+            <h1>أجهزة الالعاب</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  أجهزة الالعاب
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .btnjehad {
+        background: #0066a5;
+        text-align: center;
+        width: 241px !important;
+        color: #fff !important;
+        border-radius: 8px;
+        font-weight: bold !important;
+        padding: 2px 24px 2px 24px;
+      }
+    </style>
+
+    <div class="product-section pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 pb-30">
+            <div class="product-list-header">
+              <div class="product-list-header-item">
+                <div class="product-list-result">
+                  <p>عرض 1-9 من 20 نتيجة</p>
+                </div>
+              </div>
+              <div class="product-list-header-item">
+                <div class="product-list-action">
+                  <div class="product-list-form">
+                    <form>
+                      <select>
+                        <option value="default-sorting">الافتراضي</option>
+                        <option value="popularity">عرض حسب الاشهر</option>
+                        <option value="lowtohigh">
+                          حسب السعر من الاقل للاعلي
+                        </option>
+                        <option value="hightolow">
+                          حسب السعر من الاعلي للاقل
+                        </option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-content">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=15">
+                        <img
+                          src="images/1625531270_8445.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625531270_8445.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سوني بلاي ستيشن 4 برو، 1 تيرا، أسود</h3>
+                      <div class="product-price">
+                        <del>1739 ريال</del>1639 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=15&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">6%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=15&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=17">
+                        <img
+                          src="images/1625532150_9802.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625532150_9802.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        بلاي ستيشن 5 ديجيتال, اليد الأساسية , 825 جيجا ، بدون
+                        قاريء اقراص
+                      </h3>
+                      <div class="product-price">
+                        <del>1990 ريال</del>1890 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=17&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">5%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=17&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=18">
+                        <img
+                          src="images/1625531759_7131.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625531759_7131.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        بلاي ستيشن 5 ديجيتال, مع وحدة تحكم اضافية , 825 جيجا ،
+                        بدون قاريء اقراص
+                      </h3>
+                      <div class="product-price">
+                        <del>2240 ريال</del>2140 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=18&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=18&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=21">
+                        <img
+                          src="images/1625532413_9945.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625532413_9945.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        بلاي ستيشن 5،  قارىء اقراص ، اليد الأساسية ،1 تيرا ،ابيض
+                      </h3>
+                      <div class="product-price">
+                        <del>2400 ريال</del>2300 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=21&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=21&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=22">
+                        <img
+                          src="images/1625531289_9215.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1625531289_9215.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا
+                        ،ابيض
+                      </h3>
+                      <div class="product-price">
+                        <del>2650 ريال</del>2550 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=22&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=22&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=201">
+                        <img
+                          src="images/1630833985_7162.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1630833985_7162.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سوني 5 cd بيد اضافية</h3>
+                      <div class="product-price">
+                        <del>2700 ريال</del>2600 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=201&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=201&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=248">
+                        <img
+                          src="images/1632687204_1281.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1632687204_1281.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>بلاي ستيشين 5 ديجتال، مع سماعة لا سلكية</h3>
+                      <div class="product-price">
+                        <del>2769 ريال</del>2759 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=248&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">0%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=248&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=250">
+                        <img
+                          src="images/1632834770_4055.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1632834770_4055.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>Xbox Series S</h3>
+                      <div class="product-price">
+                        <del>1350 ريال</del>1100 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=250&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">19%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=250&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=251">
+                        <img
+                          src="images/1633005053_4117.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1633005053_4117.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سوني دول سنس يد بلاي ستيشن 5</h3>
+                      <div class="product-price">
+                        <del>300 ريال</del>200 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=251&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">33%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=251&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=252">
+                        <img
+                          src="images/1633005775_3730.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1633005775_3730.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        سوني بلاي ستيشن 5 أتش دي كاميرا، عالية الوضوح، أبيض
+                      </h3>
+                      <div class="product-price">
+                        <del>299 ريال</del>200 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=252&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">33%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=252&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-pagination">
+              <nav aria-label="pagination">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <span class="page-link"
+                      ><i class="flaticon-left-arrow-1"></i
+                    ></span>
+                  </li>
+                  <li class="page-item active">
+                    <span class="page-link">
+                      1
+                      <span class="sr-only">(الحالي)</span>
+                    </span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="flaticon-next"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+})
+})

@@ -1,0 +1,399 @@
+
+
+
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    
+    <div class="header-page">
+      <div class="container">
+        <div class="header-padding position-relative">
+          <div class="header-page-shape">
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-1.png" alt="shape" />
+            </div>
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-2.png" alt="shape" />
+            </div>
+          </div>
+          <div class="header-page-title">
+            <h1>أجهزة سامسونج</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  أجهزة سامسونج
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .btnjehad {
+        background: #0066a5;
+        text-align: center;
+        width: 241px !important;
+        color: #fff !important;
+        border-radius: 8px;
+        font-weight: bold !important;
+        padding: 2px 24px 2px 24px;
+      }
+    </style>
+
+    <div class="product-section pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 pb-30">
+            <div class="product-list-header">
+              <div class="product-list-header-item">
+                <div class="product-list-result">
+                  <p>عرض 1-9 من 20 نتيجة</p>
+                </div>
+              </div>
+              <div class="product-list-header-item">
+                <div class="product-list-action">
+                  <div class="product-list-form">
+                    <form>
+                      <select>
+                        <option value="default-sorting">الافتراضي</option>
+                        <option value="popularity">عرض حسب الاشهر</option>
+                        <option value="lowtohigh">
+                          حسب السعر من الاقل للاعلي
+                        </option>
+                        <option value="hightolow">
+                          حسب السعر من الاعلي للاقل
+                        </option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-content">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=212">
+                        <img
+                          src="images/1631558274_5606.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558274_5606.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج هاتف جالاكسي S21</h3>
+                      <div class="product-price">
+                        <del>3999 ريال</del>3849 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=212&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 119 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=212&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=213">
+                        <img
+                          src="images/1631558319_1235.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558319_1235.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج هاتف جالاكسي نوت 20</h3>
+                      <div class="product-price">
+                        <del>3999 ريال</del>3849 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=213&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 119 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">4%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=213&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=214">
+                        <img
+                          src="images/1631558372_7548.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558372_7548.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج هاتف جالاكسي إس 21</h3>
+                      <div class="product-price">
+                        <del>4999 ريال</del>4849 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=214&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 160 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=214&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=215">
+                        <img
+                          src="images/1631558444_7778.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558444_7778.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج موبايل جالاكسي A52</h3>
+                      <div class="product-price">
+                        <del>2470 ريال</del>2270 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=215&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 74 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">8%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=215&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=216">
+                        <img
+                          src="images/1631558522_1616.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631558522_1616.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج هاتف جالاكسي S9</h3>
+                      <div class="product-price">
+                        <del>1654 ريال</del>1554 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=216&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 500 ريال والقسط الشهري 44 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">6%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=216&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=226">
+                        <img
+                          src="images/1631628177_7943.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631628177_7943.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>سامسونج جالكسي إس 21 ، 5 جي، 256 جيجا، بنفسجي</h3>
+                      <div class="product-price">
+                        <del>3100 ريال</del>3000 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=226&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5>
+                      الدفعة الاولى 1000 ريال والقسط الشهري 83 ريال على 24 شهر
+                    </h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=226&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-pagination">
+              <nav aria-label="pagination">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <span class="page-link"
+                      ><i class="flaticon-left-arrow-1"></i
+                    ></span>
+                  </li>
+                  <li class="page-item active">
+                    <span class="page-link">
+                      1
+                      <span class="sr-only">(الحالي)</span>
+                    </span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="flaticon-next"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+})
+})

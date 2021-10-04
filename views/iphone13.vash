@@ -1,0 +1,784 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    
+    <div class="header-page">
+      <div class="container">
+        <div class="header-padding position-relative">
+          <div class="header-page-shape">
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-1.png" alt="shape" />
+            </div>
+            <div class="header-page-shape-item">
+              <img src="images/header-page-shape-2.png" alt="shape" />
+            </div>
+          </div>
+          <div class="header-page-title">
+            <h1>أيفون 13</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  أيفون 13
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .btnjehad {
+        background: #0066a5;
+        text-align: center;
+        width: 241px !important;
+        color: #fff !important;
+        border-radius: 8px;
+        font-weight: bold !important;
+        padding: 2px 24px 2px 24px;
+      }
+    </style>
+
+    <div class="product-section pt-100 pb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 pb-30">
+            <div class="product-list-header">
+              <div class="product-list-header-item">
+                <div class="product-list-result">
+                  <p>عرض 1-9 من 20 نتيجة</p>
+                </div>
+              </div>
+              <div class="product-list-header-item">
+                <div class="product-list-action">
+                  <div class="product-list-form">
+                    <form>
+                      <select>
+                        <option value="default-sorting">الافتراضي</option>
+                        <option value="popularity">عرض حسب الاشهر</option>
+                        <option value="lowtohigh">
+                          حسب السعر من الاقل للاعلي
+                        </option>
+                        <option value="hightolow">
+                          حسب السعر من الاعلي للاقل
+                        </option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-content">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=234">
+                        <img
+                          src="images/1631883117_5468.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631883117_5468.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G
+                        ،جرافيتي
+                      </h3>
+                      <div class="product-price">
+                        <del>5300 ريال</del>5200 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=234&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">2%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=234&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=235">
+                        <img
+                          src="images/1631883326_7618.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631883326_7618.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        ابل ايفون 13 برو ماكس سعة 256 جيجابايت ، الجيل الخامس 5G
+                        ،ذهبي
+                      </h3>
+                      <div class="product-price">
+                        <del>5800 ريال</del>5600 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=235&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=235&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=236">
+                        <img
+                          src="images/1631883532_4655.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631883532_4655.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        ابل ايفون 13 برو ماكس سعة 1 تيرا بايت ، الجيل الخامس 5G
+                        ،جرافيتي
+                      </h3>
+                      <div class="product-price">
+                        <del>7800 ريال</del>7700 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=236&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">1%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=236&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=237">
+                        <img
+                          src="images/1631884035_9210.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631884035_9210.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        ابل ايفون 13 ميني سعة 128 جيجابايت ، الجيل الخامس 5G
+                        ،لون سماء
+                      </h3>
+                      <div class="product-price">
+                        <del>3400 ريال</del>3300 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=237&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=237&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=238">
+                        <img
+                          src="images/1631884238_1643.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631884238_1643.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        ابل ايفون 13 ميني سعة 512 جيجابايت ، الجيل الخامس 5G
+                        ،وردي
+                      </h3>
+                      <div class="product-price">
+                        <del>4800 ريال</del>4700 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=238&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">2%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=238&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=239">
+                        <img
+                          src="images/1631888591_6916.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631888591_6916.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        أيفون 13 ميني ، 128 جيجابايت ، الجيل الخامس - أزرق
+                      </h3>
+                      <div class="product-price">
+                        <del>3449 ريال</del>3349 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=239&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=239&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=240">
+                        <img
+                          src="images/1631888623_8804.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631888623_8804.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        أيفون 13 ميني ، 128 جيجابايت ، الجيل الخامس - أزرق
+                      </h3>
+                      <div class="product-price">
+                        <del>3449 ريال</del>3349 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=240&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=240&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=241">
+                        <img
+                          src="images/1631888709_3503.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631888709_3503.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 13 ، 128 جيجابايت ، الجيل الخامس - ستارلايت</h3>
+                      <div class="product-price">
+                        <del>3949 ريال</del>3849 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=241&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=241&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=242">
+                        <img
+                          src="images/1631888785_6978.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631888785_6978.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        أيفون 13 ميني ، 256 جيجابايت ، الجيل الخامس - وردي
+                      </h3>
+                      <div class="product-price">
+                        <del>3949 ريال</del>3849 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=242&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=242&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=243">
+                        <img
+                          src="images/1631888882_3748.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631888882_3748.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 13 ، 128 جيجابايت ، الجيل الخامس - أحمر</h3>
+                      <div class="product-price">
+                        <del>3949 ريال</del>3849 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=243&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">3%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=243&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=244">
+                        <img
+                          src="images/1631888973_8956.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631888973_8956.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 13 ، 256 جيجابايت ، الجيل الخامس - أسود</h3>
+                      <div class="product-price">
+                        <del>4449 ريال</del>4349 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=244&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">2%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=244&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=245">
+                        <img
+                          src="images/1631889263_4080.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631889263_4080.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 13 ، 256 جيجابايت ، الجيل الخامس - أحمر</h3>
+                      <div class="product-price">
+                        <del>4449 ريال</del>4349 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=245&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">2%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=245&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=246">
+                        <img
+                          src="images/1631889348_7800.jpeg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631889348_7800.jpeg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>أيفون 13 برو 128 جيجابايت ، الجيل الخامس - ذهبي</h3>
+                      <div class="product-price">
+                        <del>4849 ريال</del>4749 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=246&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">2%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=246&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 pb-30">
+                  <div class="trending-product-card">
+                    <div class="product-card-thumb">
+                      <a href="viewproduct.php?id=247">
+                        <img
+                          src="images/1631924930_8580.jpg"
+                          alt="product"
+                          class="product-main-thumb"
+                        />
+                        <img
+                          src="images/1631924930_8580.jpg"
+                          alt="product"
+                          class="product-hover-thumb"
+                        />
+                      </a>
+                    </div>
+                    <div class="product-card-content">
+                      <h3>
+                        ابل ايفون 13 برو ماكس سعة256 جيجابايت ، الجيل الخامس 5G
+                        ،لون أزرق
+                      </h3>
+                      <div class="product-price">
+                        <del>5300 ريال</del>5200 ريال
+                      </div>
+                      <div class="product-add-cart">
+                        <a href="viewproduct.php?id=247&emp=" class="btnjehad"
+                          >اطلب الان</a
+                        >
+                      </div>
+                    </div>
+                    <h5></h5>
+
+                    <div class="product-card-badge product-badge-success">
+                      <div class="product-card-badge-inner">2%</div>
+                    </div>
+                    <div class="product-card-button">
+                      <ul>
+                        <li>
+                          <div class="quickview-redirect">
+                            <a href="viewproduct.php?id=247&emp=">
+                              <i class="flaticon-eye"></i>
+                            </a>
+                            <p class="product-tooltip">اطلب الان</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page-pagination">
+              <nav aria-label="pagination">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <span class="page-link"
+                      ><i class="flaticon-left-arrow-1"></i
+                    ></span>
+                  </li>
+                  <li class="page-item active">
+                    <span class="page-link">
+                      1
+                      <span class="sr-only">(الحالي)</span>
+                    </span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="flaticon-next"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+})
+})

@@ -1,0 +1,1514 @@
+
+
+
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    
+    <style>
+      .item {
+        background: #0066a56b;
+        border-radius: 15px;
+        padding: 16px;
+      }
+
+      .product-card-content h3 {
+        background: white;
+        color: #000;
+        text-align: center;
+        padding: 4px;
+        border-radius: 7px;
+      }
+      .product-card-thumb {
+        padding: 0px;
+      }
+      .trending-product-card .product-card-thumb {
+        background-color: none;
+        padding: 0px;
+      }
+
+      .trending-product-card h5 {
+        color: #000000;
+        text-align: center;
+        border-radius: 8px;
+        padding: 1px;
+        background: #ffe700;
+        font-size: 17px;
+        margin-top: 6px;
+      }
+    </style>
+    <div class="header-banner">
+      <div class="container">
+        <div class="header-electronics-grid">
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-9">
+              <div class="header-carousel-two owl-carousel">
+                <div class="item">
+                  <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <img src="images/1633006420_6800.webp" width="100%" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <img src="images/1632755615_3153.jpg" width="100%" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <img src="images/1631560623_1344.jpg" width="100%" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <img src="images/1631560635_9582.jpg" width="100%" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header-electronics-grid-content">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div
+                      class="
+                        header-electronics-item
+                        fluid-height
+                        bg-shade bg-red-shade
+                      "
+                    >
+                      <div class="header-electronics-content">
+                        <div class="header-electronics-text inline-popup-1">
+                          <small>خصومات حتى 45%</small>
+                          <h3>
+                            علي<br />
+                            أجهزة الجوال
+                          </h3>
+                          <p>
+                            <a href="#product-popup-1" data-effect="mfp-zoom-in"
+                              ><i class="flaticon-shopping-cart-1"></i>اطلب
+                              الان</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="
+                            header-electronics-image
+                            header-electronics-center-right
+                          "
+                        >
+                          <img src="images/header-pro-1.png" alt="product" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div
+                      class="
+                        header-electronics-item
+                        fluid-height
+                        bg-shade bg-green-shade
+                      "
+                    >
+                      <div class="header-electronics-content">
+                        <div class="header-electronics-text inline-popup-1">
+                          <small>خصومات كبري</small>
+                          <h3>على أجهزة الالعاب</h3>
+                          <p>
+                            <a href="#product-popup-1" data-effect="mfp-zoom-in"
+                              ><i class="flaticon-shopping-cart-1"></i>اطلب
+                              الان</a
+                            >
+                          </p>
+                        </div>
+                        <div class="header-electronics-image">
+                          <img src="images/header-pro-2.png" alt="product" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-12 offset-md-3 col-md-6 offset-lg-0 col-lg-4"
+                  >
+                    <div
+                      class="
+                        header-electronics-item
+                        fluid-height
+                        bg-shade bg-white-shade
+                      "
+                    >
+                      <div class="header-electronics-content">
+                        <div class="header-electronics-text inline-popup-1">
+                          <small>خصومات جديدة</small>
+                          <h3>على الاجهزة اللوحية</h3>
+                          <p>
+                            <a href="#product-popup-1" data-effect="mfp-zoom-in"
+                              ><i class="flaticon-shopping-cart-1"></i>اطلب
+                              الان</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="
+                            header-electronics-image
+                            header-electronics-center-around
+                          "
+                        >
+                          <img src="images/header-pro-3.png" alt="product" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-section pt-100">
+      <div class="container">
+        <div class="service-section-two">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-3 col-lg-2 pb-30">
+              <div class="service-review">
+                <h3>32M</h3>
+                <h4>مشتري</h4>
+                <p>
+                  <i class="flaticon-placeholder"></i
+                  ><a href="#">اللملكة العربية السعودية</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-9 col-lg-10 pb-30">
+              <div
+                class="around-border border-radius-3 p-15 service-review-grid"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg service-review-item">
+                    <div class="service-review-item-inner">
+                      <div class="service-review-thumb">
+                        <i class="flaticon-box"></i>
+                      </div>
+                      <div class="service-review-content">
+                        <h3>بدون كفلاء</h3>
+                        <p>سهولة تقديم الطلب</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg service-review-item">
+                    <div class="service-review-item-inner">
+                      <div class="service-review-thumb">
+                        <i class="flaticon-payment-method"></i>
+                      </div>
+                      <div class="service-review-content">
+                        <h3>امكانية التقسيط</h3>
+                        <p>تصل حتى 24 شهر</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg service-review-item">
+                    <div class="service-review-item-inner">
+                      <div class="service-review-thumb">
+                        <i class="flaticon-fabric"></i>
+                      </div>
+                      <div class="service-review-content">
+                        <h3>هدايا مجانية</h3>
+                        <p>عند الطلب اكثر من 800 ريال</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg service-review-item">
+                    <div class="service-review-item-inner">
+                      <div class="service-review-thumb">
+                        <i class="flaticon-return-of-investment"></i>
+                      </div>
+                      <div class="service-review-content">
+                        <h3>ضمان استرجاع الاموال</h3>
+                        <p>حتى 7 ايام</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .btnjehad {
+        background: #0066a5;
+        text-align: center;
+        width: 241px !important;
+        color: #fff !important;
+        border-radius: 8px;
+        font-weight: bold !important;
+        padding: 2px 24px 2px 24px;
+      }
+    </style>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>أيفون 13</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+            @model.Iphone13.forEach(function(product){
+          <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@product.id">
+                  <img
+                    src="@product.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@product.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>
+                 @product.name
+                </h3>
+                <div class="product-price"><del>@product.price ريال </del>@product.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@product.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@product.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@product.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            })
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>أجهزة لاب توب</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+          @model.Laptop.forEach(function(lap){
+             <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@lap.id">
+                  <img
+                    src="@lap.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@lap.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@lap.name</h3>
+                <div class="product-price"><del>@lap.price ريال </del>@lap.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@lap.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@lap.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@lap.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          })
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>أجهزة سامسونج</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+        @model.Samsung.forEach(function(sam){
+          <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@sam.id">
+                  <img
+                    src="@sam.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@sam.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@sam.name</h3>
+                <div class="product-price"><del>@sam.price ريال </del>@sam.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@sam.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+              <h5>@sam.description</h5>
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@sam.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@sam.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        })
+          
+
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>الأجهزة اللوحية</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+        @model.Ipad.forEach(function(ipad){
+           <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@ipad.id">
+                  <img
+                    src="@ipad.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@ipad.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@ipad.name</h3>
+                <div class="product-price"><del>@ipad.price ريال </del>@ipad.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@ipad.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+              <h5>@ipad.description</h5>
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@ipad.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@ipad.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        })
+         
+
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>الساعات</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+        @model.Watch.forEach(function(watch){
+          <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="@watch.id">
+                  <img
+                    src="@watch.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@watch.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@watch.name </h3>
+                <div class="product-price"><del>@watch.price ريال </del>@watch.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="@watch.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+              <h5>@watch.description</h5>
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@watch.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="@watch.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        })
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>أجهزة الالعاب</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+        @model.Games.forEach(function(game){
+            <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@game.id">
+                  <img
+                    src="@game.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@game.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@game.name</h3>
+                <div class="product-price"><del>@game.price ريال </del>@game.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@game.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@game.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@game.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        })
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>أجهزة أيفون</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+
+        @model.AppleProduct.forEach(function(apl){
+          <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@apl.id">
+                  <img
+                    src="@apl.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@apl.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@apl.name</h3>
+                <div class="product-price"><del>@apl.price ريال </del>@apl.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@apl.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+              <h5>@apl.description</h5>
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@apl.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@apl.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        })
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="new-arrival-section bg-off-white pt-100 pb-70">
+      <div class="container">
+        <div class="product-tab">
+          <div
+            class="product-tab-list product-tab-red active"
+            data-product-tab-list="1"
+          >
+            أيفون 13
+          </div>
+
+          <div
+            class="product-tab-list product-tab-red"
+            data-product-tab-list="2"
+          >
+            أجهزة لاب توب
+          </div>
+
+          <div
+            class="product-tab-list product-tab-red"
+            data-product-tab-list="3"
+          >
+            أجهزة سامسونج
+          </div>
+
+          <div
+            class="product-tab-list product-tab-red"
+            data-product-tab-list="4"
+          >
+            الأجهزة اللوحية
+          </div>
+
+          <div
+            class="product-tab-list product-tab-red"
+            data-product-tab-list="5"
+          >
+            الساعات
+          </div>
+
+          <div
+            class="product-tab-list product-tab-red"
+            data-product-tab-list="6"
+          >
+            أجهزة الالعاب
+          </div>
+
+          <div
+            class="product-tab-list product-tab-red"
+            data-product-tab-list="7"
+          >
+            أجهزة أيفون
+          </div>
+        </div>
+        <div class="product-tab-details">
+          <div class="product-tab-details-item active" data-product-tab-details="1">
+                     
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/124">
+                      <img
+                        src="images/1631883117_5468.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631883117_5468.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G
+                      ،جرافيتي
+                    </h3>
+                    <div class="product-price">
+                      <del>5200 ريال</del>5300 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/124" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/112">
+                      <img
+                        src="images/1631883326_7618.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631883326_7618.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      ابل ايفون 13 برو ماكس سعة 256 جيجابايت ، الجيل الخامس 5G
+                      ،ذهبي
+                    </h3>
+                    <div class="product-price">
+                      <del>5600 ريال</del>5800 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/112" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/111">
+                      <img
+                        src="images/1631883532_4655.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631883532_4655.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      ابل ايفون 13 برو ماكس سعة 1 تيرا بايت ، الجيل الخامس 5G
+                      ،جرافيتي
+                    </h3>
+                    <div class="product-price">
+                      <del>7700 ريال</del>7800 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/111" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-tab-details-item" data-product-tab-details="2">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/14">
+                      <img
+                        src="images/1631723790_5939.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631723790_5939.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>لابتوب ماك بوك آير بشاشة ريتينا مقاس 13.3 بوصة</h3>
+                    <div class="product-price">
+                      <del>4519 ريال</del>4769 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/14" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/15">
+                      <img
+                        src="images/1631723845_3505.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631723845_3505.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>لابتوب ماك بوك آير بشاشة ريتينا مقاس 13.3 بوصة</h3>
+                    <div class="product-price">
+                      <del>5839 ريال</del>6139 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/15" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/16">
+                      <img
+                        src="images/1631723897_964.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631723897_964.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>لابتوب ماك بوك إير بشاشة ريتينا مقاس 13.3 بوصة</h3>
+                    <div class="product-price">
+                      <del>5699 ريال</del>5899 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/16" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-tab-details-item" data-product-tab-details="3">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/115">
+                      <img
+                        src="images/1631558274_5606.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631558274_5606.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>سامسونج هاتف جالاكسي S21</h3>
+                    <div class="product-price">
+                      <del>3849 ريال</del>3999 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/115" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/116">
+                      <img
+                        src="images/1631558319_1235.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631558319_1235.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>سامسونج هاتف جالاكسي نوت 20</h3>
+                    <div class="product-price">
+                      <del>3849 ريال</del>3999 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/116" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/117">
+                      <img
+                        src="images/1631558372_7548.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631558372_7548.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>سامسونج هاتف جالاكسي إس 21</h3>
+                    <div class="product-price">
+                      <del>4849 ريال</del>4999 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/117" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-tab-details-item" data-product-tab-details="4">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/137">
+                      <img
+                        src="images/1625601157_7353.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625601157_7353.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>ابل 2020 - آيباد برو 12,9</h3>
+                    <div class="product-price">
+                      <del>5500 ريال</del>5700 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/137" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/138">
+                      <img
+                        src="images/1631296408_6173.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631296408_6173.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>أسوس فيفو بوك 14</h3>
+                    <div class="product-price">
+                      <del>1399 ريال</del>1499 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/138" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/139">
+                      <img
+                        src="images/1631298136_624.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631298136_624.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>أبل 2020-ايباد برو 11</h3>
+                    <div class="product-price">
+                      <del>3499 ريال</del>3699 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/139" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-tab-details-item" data-product-tab-details="5">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/145">
+                      <img
+                        src="images/1631300481_698.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631300481_698.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>ابل واتش الاصدار 44,6.</h3>
+                    <div class="product-price">
+                      <del>3300 ريال</del>3500 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/145" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/144">
+                      <img
+                        src="images/1631440670_2020.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631440670_2020.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>أبل ساعة ذكية بخاصية البلوتوث</h3>
+                    <div class="product-price">
+                      <del>5050 ريال</del>5200 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/144" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/143">
+                      <img
+                        src="images/1631440776_5314.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1631440776_5314.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>أبل ساعة من السلسلة 6 مقاس</h3>
+                    <div class="product-price">
+                      <del>2859 ريال</del>2959 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/143" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-tab-details-item" data-product-tab-details="6">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/155">
+                      <img
+                        src="images/1625531270_8445.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625531270_8445.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>سوني بلاي ستيشن 4 برو، 1 تيرا، أسود</h3>
+                    <div class="product-price">
+                      <del>1639 ريال</del>1739 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/155" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/156">
+                      <img
+                        src="images/1625532150_9802.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625532150_9802.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      بلاي ستيشن 5 ديجيتال, اليد الأساسية , 825 جيجا ، بدون
+                      قاريء اقراص
+                    </h3>
+                    <div class="product-price">
+                      <del>1890 ريال</del>1990 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/156" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/157">
+                      <img
+                        src="images/1625531759_7131.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625531759_7131.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      بلاي ستيشن 5 ديجيتال, مع وحدة تحكم اضافية , 825 جيجا ،
+                      بدون قاريء اقراص
+                    </h3>
+                    <div class="product-price">
+                      <del>2140 ريال</del>2240 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/157" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-tab-details-item" data-product-tab-details="7">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/137">
+                      <img
+                        src="images/1625499702_8715.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625499702_8715.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>ايفون 12 برو ماكس 512</h3>
+                    <div class="product-price">
+                      <del>5700 ريال</del>5900 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/137" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/138">
+                      <img
+                        src="images/1625523455_9267.jpeg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625523455_9267.jpeg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال
+                    </h3>
+                    <div class="product-price">
+                      <del>5000 ريال</del>5300 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/138" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 pb-30">
+                <div class="product-tab-details-content">
+                  <div class="product-card-thumb">
+                    <a href="/product/139">
+                      <img
+                        src="images/1625535192_4392.jpg"
+                        alt="product"
+                        class="product-main-thumb"
+                      />
+                      <img
+                        src="images/1625535192_4392.jpg"
+                        alt="product"
+                        class="product-hover-thumb"
+                      />
+                    </a>
+                  </div>
+                  <div class="product-card-content">
+                    <h3>
+                      آبل أيفون 12 برو ماكس ، 128 جيجا ، الدفعه الاولى 1000 ريال
+                    </h3>
+                    <div class="product-price">
+                      <del>4900 ريال</del>5100 ريال
+                    </div>
+                    <div class="product-add-cart">
+                      <a href="/product/139" class="btnjehad"
+                        >اطلب الان</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="partner-section position-relative">
+      <div class="container">
+        <div class="partner-section-content bg-red pt-50 pb-50">
+          <div class="partner-carousel owl-carousel owl-theme">
+            <div class="item">
+              <div class="partner-thumb">
+                <a href="#">
+                  <img src="fonts/m3rof.svg" alt="معروف" />
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="partner-thumb">
+                <a href="#">
+                  <img src="images/rajhi.png" alt="الراجحي" />
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="partner-thumb">
+                <a href="#">
+                  <img src="fonts/m3rof.svg" alt="معروف" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+ 
+})
+})
+@*   @keyframes ZpjSY {
+        0% {
+          background-color: rgb(182, 181, 186);
+        }
+        15% {
+          background-color: rgb(17, 17, 17);
+        }
+        25% {
+          background-color: rgb(182, 181, 186);
+        }
+      }
+
+      @keyframes hPhMsj {
+        15% {
+          background-color: rgb(182, 181, 186);
+        }
+        25% {
+          background-color: rgb(17, 17, 17);
+        }
+        35% {
+          background-color: rgb(182, 181, 186);
+        }
+      }
+
+      @keyframes iUMejp {
+        25% {
+          background-color: rgb(182, 181, 186);
+        }
+        35% {
+          background-color: rgb(17, 17, 17);
+        }
+        45% {
+          background-color: rgb(182, 181, 186);
+        }
+      }
+
+      @keyframes showhide {
+        from {
+          transform: scale(0.5);
+          opacity: 0;
+        }
+      }
+      @keyframes showchat {
+        from {
+          transform: scale(0);
+          opacity: 0;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        #whatsapp-chat {
+          width: auto;
+          left: 5%;
+          right: 5%;
+          font-size: 80%;
+        }
+      } *@

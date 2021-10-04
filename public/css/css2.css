@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/SLXLc1nY6HkvalqKbL6M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/SLXGc1nY6HkvamIm.ttf) format('truetype');
+}
