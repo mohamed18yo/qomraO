@@ -630,7 +630,7 @@
                       ><span>admin@storegx.com</span></a
                     >
                   </li>
-                  <li>جوال: <a href="tel:00966582926560">+966582926560</a></li>
+                  <li>جوال: <a href="tel:00972599192995">+972599192995</a></li>
                   <li>العمل: <span>السبت الخميس / 9:00 AM - 11:00 PM</span></li>
                 </ul>
               </div>
@@ -1152,7 +1152,7 @@
             )
           )
             var d = "whatsapp://send";
-          var g = d + "?phone=+966582926560" + e + f;
+          var g = d + "?phone=+972599192995" + e + f;
           window.open(g, "_blank");
         }
       }),
