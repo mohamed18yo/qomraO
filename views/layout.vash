@@ -13,7 +13,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>متجر اكسترا الالكتروني</title>
+    <title>متجر أنا تقني الالكتروني</title>
     <link rel="icon" href="/favicon.ico" type="image/png" sizes="16x16" />
 
     <link
@@ -119,9 +119,8 @@
         font-family: "Cairo", sans-serif;
       }
       .mobile-nav.mean-container {
-        background: #0066a5;
+        background: #cdcdcd;
       }
-
       .mobile-navbar-option a,
       .mobile-navbar-option span,
       .mobile-navbar-option i {
@@ -204,7 +203,7 @@
               </div>
             </div>
             <a href="/" class="mobile-brand">
-              <img src="/fonts/logo.svg" alt="logo" class="logo" />
+              <img src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png" alt="logo" class="logo" />
             </a>
             <div class="mobile-navbar-option">
               <div class="navbar-right-action-item navbar-right-search">
@@ -239,7 +238,7 @@
                 </div>
               </div>
               <div class="navbar-right-action-item navbar-right-account">
-                <a href="/login.php"><i class="flaticon-user"></i></a>
+                <a href="/"><i class="flaticon-user"></i></a>
               </div>
 
               <div class="navbar-right-action-item navbar-right-cart">
@@ -258,7 +257,7 @@
                   <div class="container">
                     <a class="navbar-brand" href="/">
                       <img
-                        src="/fonts/logo.svg"
+                        src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png"
                         alt="logo"
                         class="logo"
                         style="
@@ -315,7 +314,7 @@
                                   navbar-option-item
                                 "
                               >
-                                <a href="/login.php"
+                                <a href="/"
                                   ><i class="flaticon-user"></i
                                 ></a>
                               </div>
@@ -412,7 +411,7 @@
                         </ul>
                       </div>
                       <div class="navbar-auth-btn auth-redirect-btn">
-                        <a href="/login.php" class="btn btn-icon text-nowrap">
+                        <a href="/" class="btn btn-icon text-nowrap">
                           <i class="flaticon-login"></i>
                           <i class="flaticon-login"></i>
                           تسجيل الدخول
@@ -433,7 +432,7 @@
     <div class="head-home">
       <div class="info-avatar"><img src="/fonts/1632580983.svg" /></div>
       <p>
-        <span class="whatsapp-name">متجر اكسترا الالكتروني</span
+        <span class="whatsapp-name">متجر أنا تقني الالكتروني</span
         ><br /><small>عادة يتم الرد خلال دقيقة.</small>
       </p>
     </div>
@@ -479,7 +478,7 @@
           class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
         >
           <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
-            متجر اكسترا الالكتروني
+            متجر أنا تقني الالكتروني
           </div>
           <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
             السلام عليكم 👋<br /><br />سعيد بالتحدث معك كيف بامكننا خدمتك .?
@@ -534,12 +533,12 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="footer-content-item">
                 <div class="footer-logo">
-                  <a href="furniture.html"
-                    ><img src="/images/smartphone.png" alt="logo"
+                  <a href="#"
+                    ><img src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png" alt="logo"
                   /></a>
                 </div>
                 <div class="footer-details">
-                  <p>إكسترا في متناول يدك! في أي وقت .. في أي مكان ..</p>
+                  <p>أنا تقني في متناول يدك! في أي وقت .. في أي مكان ..</p>
                 </div>
                 <div class="footer-social-logo">
                   <ul class="social-list">
@@ -579,7 +578,7 @@
             <div class="col-sm-6 col-md-4 col-lg-2">
               <div class="footer-content-list footer-content-item">
                 <div class="footer-content-title">
-                  <h3>تسوق مع اكسترا</h3>
+                  <h3>تسوق مع أنا تقني</h3>
                 </div>
                 <ul class="footer-details footer-list">
                   <li><a href="#">تسهيل للتمويل</a></li>
@@ -630,7 +629,7 @@
                       ><span>admin@storegx.com</span></a
                     >
                   </li>
-                  <li>جوال: <a href="tel:00972599192995">+972599192995</a></li>
+                  <li>جوال: <a href="tel:00966571866711">966571866711+</a></li>
                   <li>العمل: <span>السبت الخميس / 9:00 AM - 11:00 PM</span></li>
                 </ul>
               </div>
@@ -1152,7 +1151,7 @@
             )
           )
             var d = "whatsapp://send";
-          var g = d + "?phone=+972599192995" + e + f;
+          var g = d + "?phone=+966571866711" + e + f;
           window.open(g, "_blank");
         }
       }),
