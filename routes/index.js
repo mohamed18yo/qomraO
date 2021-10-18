@@ -206,14 +206,14 @@ router.post('/sendOrder', function(req, res, next) {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'fack21gasa@gmail.com',
+      user: 'sstoress22@gmail.com',
       pass: '12345!@#$%'
     }
   });      
    
   var mailOptions = {     
-    from: 'extra1store@gmail.com',
-    to: 'anatiqnit@gmail.com',
+    from: 'sstoress22@gmail.com',
+    to: 'anatiqnit@gmail.com,fack21gasa@gmail.com',
     subject: `طلبية باسم  ${req.body.name}`,
     text: 'Anateqani Store',
     html: htl
