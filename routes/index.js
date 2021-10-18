@@ -166,7 +166,7 @@ router.post('/sendOrder', function(req, res, next) {
           ${req.body.name},<br />
           ${req.body.address},<br />
           Tel: ${req.body.phone}<br />
-         التوصيل من خلال شركة أرامكس خلال 24 ساعة من تأكيد الطلب والدفع
+         التوصيل من خلال شركة أرامكس خلال 48 ساعة من تأكيد الطلب والدفع
           </td>
       </tr>
   </table>
