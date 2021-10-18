@@ -253,6 +253,67 @@
         padding: 2px 24px 2px 24px;
       }
     </style>
+    <section class="trending-product-section p-tb-100">
+      <div class="container">
+        <div class="section-title">
+          <h2>أجهزة الالعاب</h2>
+        </div>
+        <div
+          class="
+            trending-product-carousel
+            owl-carousel owl-theme
+            round-carousel-button
+          "
+        >
+        @model.Games.forEach(function(game){
+            <div class="item">
+            <div class="trending-product-card">
+              <div class="product-card-thumb">
+                <a href="/product/@game.id">
+                  <img
+                    src="@game.image"
+                    alt="product"
+                    class="product-main-thumb"
+                  />
+                  <img
+                    src="@game.image"
+                    alt="product"
+                    class="product-hover-thumb"
+                  />
+                </a>
+              </div>
+              <div class="product-card-content">
+                <h3>@game.name</h3>
+                <div class="product-price"><del>@game.price ريال </del>@game.subprice ريال</div>
+                <div class="product-add-cart">
+                  <a href="/product/@game.id" class="btnjehad"
+                    >اطلب الان</a
+                  >
+                </div>
+              </div>
+
+              <div class="product-card-badge product-badge-success">
+                <div class="product-card-badge-inner">@game.discount %</div>
+              </div>
+              <div class="product-card-button">
+                <ul>
+                  <li>
+                    <div class="quickview-redirect inline-popup-1">
+                      <a href="/product/@game.id">
+                        <i class="flaticon-eye"></i>
+                      </a>
+                      <p class="product-tooltip">اطلب الان</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        })
+        
+        </div>
+      </div>
+    </section>
 
     <section class="trending-product-section p-tb-100">
       <div class="container">
@@ -567,67 +628,6 @@
       </div>
     </section>
 
-    <section class="trending-product-section p-tb-100">
-      <div class="container">
-        <div class="section-title">
-          <h2>أجهزة الالعاب</h2>
-        </div>
-        <div
-          class="
-            trending-product-carousel
-            owl-carousel owl-theme
-            round-carousel-button
-          "
-        >
-        @model.Games.forEach(function(game){
-            <div class="item">
-            <div class="trending-product-card">
-              <div class="product-card-thumb">
-                <a href="/product/@game.id">
-                  <img
-                    src="@game.image"
-                    alt="product"
-                    class="product-main-thumb"
-                  />
-                  <img
-                    src="@game.image"
-                    alt="product"
-                    class="product-hover-thumb"
-                  />
-                </a>
-              </div>
-              <div class="product-card-content">
-                <h3>@game.name</h3>
-                <div class="product-price"><del>@game.price ريال </del>@game.subprice ريال</div>
-                <div class="product-add-cart">
-                  <a href="/product/@game.id" class="btnjehad"
-                    >اطلب الان</a
-                  >
-                </div>
-              </div>
-
-              <div class="product-card-badge product-badge-success">
-                <div class="product-card-badge-inner">@game.discount %</div>
-              </div>
-              <div class="product-card-button">
-                <ul>
-                  <li>
-                    <div class="quickview-redirect inline-popup-1">
-                      <a href="/product/@game.id">
-                        <i class="flaticon-eye"></i>
-                      </a>
-                      <p class="product-tooltip">اطلب الان</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        })
-        
-        </div>
-      </div>
-    </section>
 
     <section class="trending-product-section p-tb-100">
       <div class="container">
