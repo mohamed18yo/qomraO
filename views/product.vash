@@ -666,7 +666,7 @@
                           type="text"
                           placeholder="كود الخصم"
                           name="code"
-                          value="extra20"
+                          value="anatiqani20"
                           required
                         />
                       </div>
