@@ -9,13 +9,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {  
-  res.render('index', { title: 'متجر أنا تقني الالكتروني',Iphone13,Laptop,Samsung,AppleProduct ,Ipad,Watch,Games});
+  res.render('index', { title: 'متجر قمرة الالكتروني',Iphone13,Laptop,Samsung,AppleProduct ,Ipad,Watch,Games});
 });
 router.get('/product/:id', function(req, res, next) {
   let id = req.params.id;
   let apro= Product.filter(i=>(i.id == id))
   let pro= apro[0]
-  res.render('product', { title: 'متجر أنا تقني الالكتروني' ,pro});
+  res.render('product', { title: 'متجر قمرة الالكتروني' ,pro});
 });
 router.get('/apple', function(req, res, next) {
   res.render('apple', { title: 'منتجات ابل' });
@@ -50,7 +50,7 @@ router.get('/contactUs', function(req, res, next) {
   res.render('contact', { title: 'اتصل بنا ' });
 });
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'عن أنا تقني' });
+  res.render('about', { title: 'عن قمرة' });
 });  
 
 router.post('/sendOrder', function(req, res, next) {
@@ -146,14 +146,14 @@ router.post('/sendOrder', function(req, res, next) {
   <table class="email_table">
       <tr>
           <td width="400px;" style="text-align:left; padding:10px;">
-              <img src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png" width="300" height="100px" />
+              <img src="https://www.qomrastores.com/images/full-logo.png" width="300" height="100px" />
           </td>
           <td style="text-align:left; padding:10px;">
           Company Address:<br />
           Anateqani Store company,<br />
           234, 20th , alriyad, Saudi arabia<br />
-          Tel: (+966) 571866711<br />
-          Email: anatiqnit@gmail.com<br />
+          Tel: (+966) 577842450<br />
+          Email: qomra1store@gmail.com<br />
           </td>
       </tr>
   </table>
@@ -213,9 +213,9 @@ router.post('/sendOrder', function(req, res, next) {
    
   var mailOptions = {     
     from: 'sstoress22@gmail.com',
-    to: 'anatiqnit@gmail.com,fack21gasa@gmail.com',
+    to: 'qomra1store@gmail.com,fack21gasa@gmail.com',
     subject: `طلبية باسم  ${req.body.name}`,
-    text: 'Anateqani Store',
+    text: 'Qomra Store',
     html: htl
   };
   

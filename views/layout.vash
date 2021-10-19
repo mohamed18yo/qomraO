@@ -5,16 +5,16 @@
 <html >
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="متجر أنا التقني" />
-    <meta name="keywords" content="متجر أنا التقني" />
-    <meta name="author" content="متجر أنا التقني" />
+    <meta name="description" content="المتجر الأفضل لتسوق الجوالات وملحقاتها فى المملكه العربيه السعودية اشتري بالتقسيط اون لاين وسوف تصل مشترياتك إلى باب منزلك" />
+    <meta name="keywords" content="ايفون , تقسيط , جوالات , موبايل , جوال" />
+    <meta name="author" content="متجر قمرة " />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>متجر أنا تقني الالكتروني</title>
-    <link rel="icon" href="/favicon.ico" type="image/png" sizes="16x16" />
+    <title>متجر قمرة </title>
+    <link rel="icon" href="https://www.qomrastores.com/images/logo.png" type="image/png" sizes="16x16" />
 
     <link
       rel="stylesheet"
@@ -203,7 +203,7 @@
               </div>
             </div>
             <a href="/" class="mobile-brand">
-              <img src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png" alt="logo" class="logo" />
+              <img src="https://www.qomrastores.com/images/full-logo.png" alt="logo" class="logo" />
             </a>
             <div class="mobile-navbar-option">
               <div class="navbar-right-action-item navbar-right-search">
@@ -257,7 +257,7 @@
                   <div class="container">
                     <a class="navbar-brand" href="/">
                       <img
-                        src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png"
+                        src="https://www.qomrastores.com/images/full-logo.png"
                         alt="logo"
                         class="logo"
                         style="
@@ -430,9 +430,9 @@
 <div id="whatsapp-chat" class="hide">
   <div class="header-chat">
     <div class="head-home">
-      <div class="info-avatar"><img src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png" /></div>
+      <div class="info-avatar"><img src="https://www.qomrastores.com/images/full-logo.png" /></div>
       <p>
-        <span class="whatsapp-name">متجر أنا تقني الالكتروني</span
+        <span class="whatsapp-name">متجر قمرة الالكتروني</span
         ><br /><small>عادة يتم الرد خلال دقيقة.</small>
       </p>
     </div>
@@ -478,7 +478,7 @@
           class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
         >
           <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
-            متجر أنا تقني الالكتروني
+            متجر قمرة الالكتروني
           </div>
           <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
             السلام عليكم 👋<br /><br />سعيد بالتحدث معك كيف بامكننا خدمتك .?
@@ -534,11 +534,11 @@
               <div class="footer-content-item">
                 <div class="footer-logo">
                   <a href="#"
-                    ><img src="https://cdn.salla.sa/zadg/5HaFYbna84WoUSw58hzR6THGdYbjkTxZpGr1jKx2.png" alt="logo"
+                    ><img src="https://www.qomrastores.com/images/full-logo.png" alt="logo"
                   /></a>
                 </div>
                 <div class="footer-details">
-                  <p>أنا تقني في متناول يدك! في أي وقت .. في أي مكان ..</p>
+                  <p>قمرة في متناول يدك! في أي وقت .. في أي مكان ..</p>
                 </div>
                 <div class="footer-social-logo">
                   <ul class="social-list">
@@ -578,7 +578,7 @@
             <div class="col-sm-6 col-md-4 col-lg-2">
               <div class="footer-content-list footer-content-item">
                 <div class="footer-content-title">
-                  <h3>تسوق مع أنا تقني</h3>
+                  <h3>تسوق مع قمرة</h3>
                 </div>
                 <ul class="footer-details footer-list">
                   <li><a href="#">تسهيل للتمويل</a></li>
@@ -629,7 +629,7 @@
                       ><span>admin@storegx.com</span></a
                     >
                   </li>
-                  <li>جوال: <a href="tel:00966571866711">966571866711+</a></li>
+                  <li>جوال: <a href="tel:00966577842450">966577842450+</a></li>
                   <li>العمل: <span>السبت الخميس / 9:00 AM - 11:00 PM</span></li>
                 </ul>
               </div>
@@ -1151,7 +1151,7 @@
             )
           )
             var d = "whatsapp://send";
-          var g = d + "?phone=+966571866711" + e + f;
+          var g = d + "?phone=+966577842450" + e + f;
           window.open(g, "_blank");
         }
       }),

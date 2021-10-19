@@ -1,0 +1,155 @@
+var htl = `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="width: 100%; display: flex; flex-direction:column; align-items: center;" >
+    <div class="container" style="width: 100%; display: flex; align-items: center;">
+      <hr class="blueLine" style="height: 7px;" width="95%" color="blue" />
+      <div class="header" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; height: 140px; width: 90%;">
+        <div class="social">
+          <ul style="list-style-type: none; padding-left: 0;">
+            <li>facebock</li>
+            <li>whatsapp</li>
+            <li>instagram</li>
+          </ul>
+        </div>
+        <div>
+          <img
+            class="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIfFaCTfkihI7yKMWsb5msz1RNKfO0zB-JQXwmak4NZTJSO0eSn3i9tjV3P_xzUxAiN8k&usqp=CAU"
+            alt="logo"
+            style="height: 130px; width: 160px; border-radius: 5px;"
+          />
+        </div>
+        <div class="info" style="width: 200px;">
+          <ul style="list-style-type: none; padding-left: 0;">
+            <li>exstra@info.com</li>
+            <li>www.exstra.com</li>
+            <li>sudia arabia, makka alwheda</li>
+            <li>instagram</li>
+          </ul>
+        </div>
+      </div>
+      <hr width="85%" color="gray" />
+      <div class="secondSection" style="height: 50px; width: 90%; display: flex; flex-direction: row;">
+        <p class="date" style="background-color: rgb(196 196 196); font-size: 25px; margin: auto 0; padding: 0 1rem; border-radius: 5px;">29-09-2021</p>
+        <p class="id" style="margin: auto; font-size: 25px;">#125421</p>
+      </div>
+
+      <div class="heroSection" style="width:90%; height: 200px; border-radius: 20px; border: solid 1px gray; display: flex; flex-direction: row;">
+        <div class="leftSide" style="width: 50%; direction: rtl;">
+          <h3>عميلنا العزيز ,</h3>
+          <p>شكراً للتسوق.<br /></p>
+        </div>
+        <hr class="vrcenter" style="height: 100%; margin: 0;"/>
+        <div class="rightSide" style="width: 50%;">
+          <h3>,عزيزي الزبون</h3>
+          <p>شكراً للتسوق</p>
+        </div>
+      </div>
+      <div class="clintSection" style="direction: rtl; width: 90%; margin: 1rem 0; border: solid 1px gray;">
+        <table style="color: #000; font-family: sans-serif; font-size: 22px; font-weight: 300; text-align: center; border-collapse: separate; border-spacing: 0; width: 100%;" class="item_table">
+          <thead class="blueRow" style="background-color: #308cbb; width: 99%; border-radius: 20px; color: #fff;">
+            <tr>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">اسم العميل</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">رقم الجوال</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">العنوان</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">name</td>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">phone</td>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">address</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="orderDetales" style="direction: rtl; width: 90%; border: solid 1px gray; margin: 1rem 0;">
+        <table style="color: #000; font-family: sans-serif; font-size: 22px; font-weight: 300; text-align: center; border-collapse: separate; border-spacing: 0; width: 100%;" class="item_table">
+          <thead>
+            <tr class="blueRow" style="background-color: #308cbb; width: 99%; border-radius: 20px; color: #fff;">
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">#</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">اسم الجهاز</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">السعر</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">العدد</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">الاجمالي</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">1</td>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">note</td>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">total ريال</td>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">qty</td>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;">total ريال</td>
+            </tr>
+
+            <tr>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;" colspan="5" style="text-align: right; padding: 10px">
+                <strong>اجمالي سعرالجهاز : </strong> total ريال
+              </td>
+            </tr>
+            <tr>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;" colspan="5" style="text-align: right; padding: 10px">
+                <strong>الدفعة المقدمة : </strong> firstPay ريال
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="delvered" style="height: 160px; width: 90%; border: solid 1px gray; border-radius: 20px; display: flex; flex-direction: row;">
+        <div class="leftSide" style="width: 50%; direction: rtl; padding: 1rem;">
+          <h3 class="dis" style="margin: auto;">العرض شامل الهدايا (ساعة + سماعة )</h3>
+        </div>
+        <hr class="vrcenter" style="height: 100%; margin: 0;"/>
+        <div class="rightSide" style="width: 50%; direction: rtl; padding: 1rem;">
+          <h3>التوصيل من خلال شركة</h3>
+          <h3>شركة اراميكسو خلال 24ساعة من الدفعة المقدمة</h3>
+        </div>
+      </div>
+      <div class="orderDetales" style="direction: rtl; width: 90%; border: solid 1px gray; margin: 1rem 0;">
+        <table style="color: #000; font-family: sans-serif; font-size: 22px; font-weight: 300; text-align: center; border-collapse: separate; border-spacing: 0; width: 100%;" class="item_table">
+          <thead>
+            <tr class="blueRow" style="background-color: #308cbb; width: 99%; border-radius: 20px; color: #fff;">
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">#</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">الدفعة</th>
+              <th style="font-weight: bold; padding: 10px; border-bottom: 2px solid #000;">تاريخ الاستحقاق</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <td  style="border-bottom: 1px solid #ddd; padding: 10px;" >1</td>
+          <td style="border-bottom: 1px solid #ddd; padding: 10px;" >152ريال</td>
+          <td style="border-bottom: 1px solid #ddd; padding: 10px;" >29-09-2021</td>
+          </tr>
+          <tr>
+            <td style="border-bottom: 1px solid #ddd; padding: 10px;" >1</td>
+            <td style="border-bottom: 1px solid #ddd; padding: 10px;" >152ريال</td>
+            <td style="border-bottom: 1px solid #ddd; padding: 10px;" >29-09-2021</td>
+          </tr>
+          <tr>
+            <td style="border-bottom: 1px solid #ddd; padding: 10px;" >1</td>
+            <td style="border-bottom: 1px solid #ddd; padding: 10px;" >152ريال</td>
+            <td style="border-bottom: 1px solid #ddd; padding: 10px;" >29-09-2021</td>
+          </tr>
+            <tr>
+              <td style="border-bottom: 1px solid #ddd; padding: 10px;"  colspan="5" style="text-align: right; padding: 10px">
+                <strong>المتبقي : </strong> 100 ريال
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="footer">
+        <p>متجرقمرة الاكتروني</p>
+        <p>www.exstra.com</p>
+      </div>
+    </div>
+  </body>
+</html>
+`;
