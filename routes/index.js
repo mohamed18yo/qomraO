@@ -150,7 +150,7 @@ router.post('/sendOrder', function(req, res, next) {
           </td>
           <td style="text-align:left; padding:10px;">
           Company Address:<br />
-          Anateqani Store company,<br />
+          Qomra Store company,<br />
           234, 20th , alriyad, Saudi arabia<br />
           Tel: (+966) 577842450<br />
           Email: qomra1store@gmail.com<br />
