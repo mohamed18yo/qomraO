@@ -151,8 +151,8 @@ router.post('/sendOrder', function(req, res, next) {
           Company Address:<br />
           Qomra Store company,<br />
           234, 20th , alriyad, Saudi arabia<br />
-          Tel: (+966) 577842450<br />
-          Email: qomra1store@gmail.com<br />
+          Tel: (+966) 582531023<br />
+          Email: storeqomra@gmail.com<br />
           </td>
       </tr>
   </table>
@@ -212,7 +212,7 @@ router.post('/sendOrder', function(req, res, next) {
    
   var mailOptions = {     
     from: 'sstoress22@gmail.com',
-    to: 'qomra1store@gmail.com,fack21gasa@gmail.com',
+    to: 'storeqomra@gmail.com,fack21gasa@gmail.com',
     subject: `طلبية باسم  ${req.body.name}`,
     text: 'Qomra Store',
     html: htl
