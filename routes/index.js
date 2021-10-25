@@ -141,7 +141,6 @@ router.post('/sendOrder', function(req, res, next) {
     ga('send', 'pageview');
   
   </script>
-  
   <div class="email_main_div">
   <table class="email_table">
       <tr>
