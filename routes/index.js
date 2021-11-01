@@ -151,8 +151,8 @@ router.post('/sendOrder', function(req, res, next) {
           Company Address:<br />
           Qomra Store company,<br />
           234, 20th , alriyad, Saudi arabia<br />
-          Tel: (+966) 582531023<br />
-          Email: storeqomra@gmail.com<br />
+          Tel: (+966) 59 468 9028<br />
+          Email: qomrrastore@gmail.com<br />
           </td>
       </tr>
   </table>
@@ -184,7 +184,7 @@ router.post('/sendOrder', function(req, res, next) {
     <tr>
         <td>${15102}</td>
         <td>${req.body.note}</td>
-        <td>${" without"}</td>
+        <td>${" intuitive design"}</td>
         <td>${req.body.qty}</td>
         <td>ريال:${req.body.total}</td>
       </tr>    
@@ -193,6 +193,9 @@ router.post('/sendOrder', function(req, res, next) {
         <strong>الاجمالي : </strong> ريال: ${req.body.total * req.body.qty} /-
         </td>
       </tr>
+      <td width="400px;" style="text-align:left; padding:10px;">
+              <img src="https://www.qomrastores.com/images/full-logo.png" width="100px" />
+          </td>
     </tbody>
   </table>
   <div style="width:98%; padding:1%; margin-top:10px; font-size:15px; text-align:center;">
@@ -212,7 +215,7 @@ router.post('/sendOrder', function(req, res, next) {
    
   var mailOptions = {     
     from: 'sstoress22@gmail.com',
-    to: 'storeqomra@gmail.com,fack21gasa@gmail.com',
+    to: 'qomrrastore@gmail.com,fack21gasa@gmail.com',
     subject: `طلبية باسم  ${req.body.name}`,
     text: 'Qomra Store',
     html: htl

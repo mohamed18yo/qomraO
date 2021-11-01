@@ -1,0 +1,305 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <h1>User List</h1>
+    <ul>
+      {{#each users}}
+      <li>Name: {{this.name}}</li>
+      <li>Age: {{this.age}}</li>
+      <br />
+      {{/each}}
+    </ul>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 140px;
+            width:90%;
+        }
+        
+        .blueLine{
+            height: 7px;
+        }
+        .logo{
+            height: 130px;
+            width: 160px;
+            border-radius: 5px;
+            
+        }
+        @media screen and (max-width:400px) {
+            .logo{
+                 width:100px;
+                height:auto;
+            } 
+                 
+            }
+       
+        ul{
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .secondSection{
+            height: 50px;
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+        }
+        .date{
+            background-color: rgb(196 196 196);
+             font-size: 25px; 
+             margin: auto 0; 
+             padding: 0 1rem;
+             border-radius: 5px;
+
+        }
+        .id{
+            margin: auto;
+            font-size: 25px;
+        }
+        .heroSection{
+            width:90%;
+            height: 200px;
+            border-radius: 20px;
+            border: solid 1px gray;
+            display: flex;
+            flex-direction: row;
+        }
+        .heroSection div{
+            width:50%;
+        }
+        .leftSide{
+            direction: rtl;
+        }
+        .vrcenter{
+            height: 100%;
+            margin: 0;
+        }
+        .clintSection{
+            direction: rtl;
+            /* height: 100px; */
+            width: 90%;
+            margin: 1rem 0;
+            /* border-radius: 20px; */
+            border: solid 1px gray;
+        }
+        table {
+            color: #000;
+            font-family: sans-serif;
+            font-size: 22px;
+            font-weight: 300;
+            text-align: center;
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            /* margin: 50px auto; */
+            /* box-shadow: 0 4px 8px 0 rgba(0,0,0,.16); */
+            }
+
+        th {
+            font-weight: bold; 
+            padding:10px; 
+            border-bottom:2px solid #000;
+        }
+
+        tbody td {
+            border-bottom: 1px solid #ddd; 
+            padding:10px;
+        }
+        .blueRow{
+            background-color: #308cbb;
+            width:99%;
+            border-radius: 20px;
+            color: #fff;
+        }
+        .orderDetales{
+            direction: rtl;
+            width: 90%;
+            border: solid 1px gray;
+            margin: 1rem 0;
+        }
+        .delvered{
+            height: 160px;
+            width:90%;
+            border: solid 1px gray;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .delvered div{
+            width:50%;
+            direction: rtl;
+            padding: 1rem;
+        }
+        .dis{
+            margin:auto;
+        }
+        .info{
+            width: 200px;
+        }
+        @media screen and (max-width:400px) {
+            .info{
+                width: 120px;
+            }       
+        }
+
+    </style>
+    <div class="container"  >
+        <hr class="blueLine" width="95%" color="blue"/>
+   
+    <hr width="85%" color="gray"/>
+    <div class="secondSection">
+        <p class="date">29-09-2021</p>
+        <p class="id">#125421</p>
+    </div>
+
+    <div class="heroSection">
+        
+        <div class="leftSide">
+            <h3>عميلنا العزيز ,</h3>
+            <p>
+                شكراً للتسوق.<br/>
+
+            </p>
+        </div>
+        <hr class="vrcenter"/>
+        <div class="rightSide">
+            <h3>,عزيزي الزبون </h3>
+            <p>
+                شكراً للتسوق
+            </p>
+        </div>
+    </div>
+    <div class="clintSection">
+        <table class="item_table">
+            <thead class="blueRow">
+              <tr >
+                <th>اسم العميل </th>
+                <th>رقم الجوال</th>
+                <th>العنوان</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <td>يوسف عبدالله </td>
+                <td>7875674556</td>
+                <td>Being Human Gray T-Shirt for men</td>
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+    <div class="orderDetales">
+        <table class="item_table">
+            <thead>
+              <tr class="blueRow">
+                <th>#</th>
+                <th>اسم الجهاز</th>
+                <th>السعر</th>
+                <th>العدد</th>
+                <th>الاجمالي</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>3200</td>
+                <td>1</td>
+                <td>1</td>
+                <td>3200</td>
+              </tr>
+              
+              <tr>
+                <td colspan="5" style="text-align:right; padding:10px;">
+                <strong>اجمالي سعرالجهاز  : </strong> 3200 ريال 
+                </td>
+              </tr>
+              <tr>
+                <td colspan="5" style="text-align:right; padding:10px;">
+                <strong>الدفعة المقدمة  : </strong> 800 ريال 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="delvered">
+  
+        <div class="leftSide">
+            <h3 class="dis">العرض شامل الهدايا (ساعة + سماعة )</h3>
+            
+        </div>
+        <hr class="vrcenter"/>
+        <div class="rightSide">
+            <h3>التوصيل من خلال شركة  </h3>
+            <h3 >شركة اراميكسو خلال 24ساعة من الدفعة المقدمة  </h3>
+            
+        </div>
+    </div>
+    <div class="orderDetales">
+        <table class="item_table">
+            <thead>
+              <tr class="blueRow">
+                <th>#</th>
+                <th>الدفعة </th>
+                <th>تاريخ الاستحقاق</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>152ريال</td>
+                <td>29-09-2021</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>152ريال</td>
+                <td>29-09-2021</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>152ريال</td>
+                <td>29-09-2021</td>
+              </tr>
+              
+              <tr>
+                <td colspan="5" style="text-align:right; padding:10px;">
+                <strong>المتبقي : </strong> 2500 ريال 
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+    <div class="footer">
+        <p>متجرقمرة الاكتروني</p>
+        <p>www.exstra.com </p>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
+
