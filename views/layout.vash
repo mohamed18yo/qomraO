@@ -629,7 +629,7 @@
                       ><span>admin@storegx.com</span></a
                     >
                   </li>
-                  <li>جوال: <a href="tel:00966 53 024 5705">966 53 024 5705+</a></li>
+                  <li>جوال: <a href="tel:00966 576339750">966 576339750+</a></li>
                   <li>العمل: <span>السبت الخميس / 9:00 AM - 11:00 PM</span></li>
                 </ul>
               </div>
@@ -1151,7 +1151,7 @@
             )
           )
             var d = "whatsapp://send";
-          var g = d + "?phone=+966530245705" + e + f;
+          var g = d + "?phone=+966576339750" + e + f;
           window.open(g, "_blank");
         }
       }),
