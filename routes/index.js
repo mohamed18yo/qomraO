@@ -151,7 +151,7 @@ router.post('/sendOrder', function(req, res, next) {
           Company Address:<br />
           Qomra Store company,<br />
           234, 20th , alriyad, Saudi arabia<br />
-          Tel: (+966) 59 468 9028<br />
+          Tel: (+966) 530245705<br />
           Email: qomrrastore@gmail.com<br />
           </td>
       </tr>
